@@ -39,6 +39,7 @@ main {
     gap: 20px;
     width: 100%;
     max-width: 1200px;
+    box-sizing: border-box;
 }
 
 a {
