@@ -173,7 +173,6 @@ a:visited {
     transform: scale(1); /* No scaling, full resolution */
 }
 
-
 #lightbox-close {
     position: absolute;
     top: 10px;
@@ -198,5 +197,12 @@ a:visited {
 footer {
     margin-top: 20px;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    #gallery {
+        max-width: 100%;
+        justify-content: center;
+    }
 }
 
