@@ -26,7 +26,8 @@ h1 {
 }
 
 .logo {
-    max-width: 80%;
+    max-width: 100%;
+    width: 500px;
     cursor: pointer;
 }
 
