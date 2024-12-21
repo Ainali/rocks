@@ -39,7 +39,6 @@ main {
     gap: 20px;
     width: 100%;
     max-width: 1200px;
-    box-sizing: border-box;
 }
 
 a {
@@ -58,6 +57,12 @@ a:active {
 
 a:visited {
   color: purple;
+}
+
+#gallery {
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box; /* Include padding in width calculations */
 }
 
 .card {
